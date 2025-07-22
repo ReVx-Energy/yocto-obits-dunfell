@@ -1,0 +1,19 @@
+{
+  "name": "RevX Dev",
+  "dockerComposeFile": [
+    "docker-compose.yml"
+  ],
+  "service": "yocto-dev",
+  "workspaceFolder": "/home/yocto",
+  "remoteUser": "yocto",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "yocto-project.yocto-bitbake",
+        "MLinha.yocto-project-dependency-visualizer",
+        "donjayamanne.githistory",
+        "ms-azuretools.vscode-containers"
+      ]
+    }
+  }
+}
