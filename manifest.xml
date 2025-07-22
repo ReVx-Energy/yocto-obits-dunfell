@@ -6,11 +6,11 @@
     <remote name="qt" fetch="https://github.com/meta-qt5/" />
     <remote name="revx" fetch="git@github.com:ReVx-Energy" />
 
-    <default revision="dunfell" remote="yocto" />
+    <default revision="dunfell" remote="yocto" sync-j="4" />
 
     <project name="poky" remote="yocto" path="sources/poky" />
-    <project name="meta-gplv2" remote="yocto" path="sources/meta-gplv2"/>
+    <project name="meta-gplv2" remote="yocto" path="sources/meta-gplv2" />
     <project name="meta-openembedded" remote="oe" path="sources/meta-openembedded" />
     <project name="meta-qt5" remote="qt" path="sources/meta-qt5" />
-    <project name="meta-renesas" remote="revx" revision="dunfell/rzv2n" />
+    <project name="meta-renesas" remote="revx" revision="dunfell/rzv2n" path="sources/meta-renesas" />
 </manifest>
