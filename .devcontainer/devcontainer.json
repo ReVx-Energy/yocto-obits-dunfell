@@ -12,7 +12,6 @@
         "yocto-project.yocto-bitbake",
         "MLinha.yocto-project-dependency-visualizer",
         "donjayamanne.githistory",
-        "ms-azuretools.vscode-containers",
         "redhat.vscode-xml",
         "DotJoshJohnson.xml",
         "ms-python.python",

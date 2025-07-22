@@ -29,8 +29,8 @@
         "build/**": true
     },
     "bitbake.pathToBuildFolder": "${workspaceFolder}/build",
-    "bitbake.pathToBitbakeFolder": "${workspaceFolder}/poky/bitbake",
-    "bitbake.pathToEnvScript": "${workspaceFolder}/poky/oe-init-build-env",
+    "bitbake.pathToBitbakeFolder": "${workspaceFolder}/sources/poky/bitbake",
+    "bitbake.pathToEnvScript": "${workspaceFolder}/sources/poky/oe-init-build-env",
     "bitbake.buildConfigurations": [
         {
             "name": "hihope-rzg2n",

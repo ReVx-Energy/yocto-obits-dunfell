@@ -213,3 +213,6 @@ __marimo__/
 .ssh-agent/
 .vscode-server/
 .gitconfig
+
+# Google repo
+.repo/
