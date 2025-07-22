@@ -4,7 +4,7 @@
     "docker-compose.yml"
   ],
   "service": "yocto-dev",
-  "workspaceFolder": "/home/yocto",
+  "workspaceFolder": "/home/yocto/yocto-obits-dunfell",
   "remoteUser": "yocto",
   "customizations": {
     "vscode": {
@@ -12,7 +12,12 @@
         "yocto-project.yocto-bitbake",
         "MLinha.yocto-project-dependency-visualizer",
         "donjayamanne.githistory",
-        "ms-azuretools.vscode-containers"
+        "ms-azuretools.vscode-containers",
+        "redhat.vscode-xml",
+        "DotJoshJohnson.xml",
+        "ms-python.python",
+        "mgesbert.python-path",
+        "almenon.arepl"
       ]
     }
   }

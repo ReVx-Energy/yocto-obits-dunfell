@@ -5,12 +5,9 @@ services:
       dockerfile: ./.devcontainer/Dockerfile
     container_name: yocto-dev-container
     volumes:
-      - ..:/home/yocto:cached
-      - /run/user/${UID}/ssh:/home/yocto/.ssh-agent:ro
+      - ..:/home/yocto/yocto-obits-dunfell
       - ~/.ssh:/home/yocto/.ssh:ro
     ports:
       - "8080:8000"
-    environment:
-      SSH_AUTH_SOCK: /home/yocto/.ssh-agent/agent.sock
     tty: true
     stdin_open: true
