@@ -40,6 +40,3 @@ echo "------------------------------------------"
 check_and_setup_meta_renesas
 check_and_setup_meta_rz_features
 echo "------------------------------------------"
-
-echo "Setting up the build environment..."
-TEMPLATECONF=$PWD/sources/meta-renesas/meta-rzg2h/docs/template/conf/ source sources/poky/oe-init-build-env build

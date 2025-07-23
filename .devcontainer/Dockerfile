@@ -7,7 +7,7 @@ RUN apt-get update && apt-get upgrade && apt-get install -y \
     chrpath socat cpio python3-full python3-pip python3-pexpect xz-utils \
     debianutils iputils-ping python3-git python3-jinja2 libegl1-mesa \
     libsdl1.2-dev xterm locales screen sudo vim rsync curl \
-    libssl-dev tcl libncurses5-dev tmux \
+    libssl-dev tcl libncurses5-dev tmux file \
     && apt-get clean
 
 RUN locale-gen en_US.UTF-8 && \
