@@ -22,7 +22,9 @@ RUN echo "yocto ALL=(ALL) NOPASSWD:ALL" >> /etc/sudoers
 USER yocto
 WORKDIR /home/yocto
 
-RUN mkdir -p /home/yocto/.ssh-agent && chown -R yocto:yocto /home/yocto/.ssh-agent
+RUN curl https://sh.rustup.rs -sSf | bash -s -- -y
+ENV PATH="/home/yocto/.cargo/env:${PATH}"
+RUN cargo install git-delta
 
 RUN pip3 install Django>4.2 \
     && pip3 install beautifulsoup4>=4.4.0 \
